@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 // Mengimpor gaya CSS dari './tabelStyle.css'
 import './tabelStyle.css';
+import Navbar from '../../components/Navbar';
 
 // Komponen Input
 const Input = () => {
@@ -30,6 +31,7 @@ const Input = () => {
   // Mereturn elemen JSX yang akan ditampilkan dalam komponen Input
   return (
     <div>
+      <Navbar/>
       {/* Menampilkan elemen h1 dengan teks 'Ini adalah Halaman Dashboard' */}
       <h1>Ini adalah Halaman Dashboard</h1>
       <table className="custom-table">

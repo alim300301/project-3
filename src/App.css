@@ -1,9 +1,12 @@
 /* App.css */
 
 .topnav {
-  background-color: #99CCFF; /* Warna latar biru muda */
+  background-color: #0281ff; /* Warna latar biru muda */
   padding: 10px;
   text-align: center;
+  display: flex;
+  justify-content: flex-end; /* Menempatkan item ke kanan */
+  align-items: center; /* Rata tengah secara vertikal */
   font-family: sans-serif;
 }
 
@@ -11,9 +14,9 @@
   color: #333; /* Warna teks untuk link */
   text-decoration: none;
   padding: 10px;
-  margin-right: 15px;
+  margin-left: 15px; /* Memberi jarak antar item */
 }
 
 .App-link:hover {
-  background-color: #77AAEE; /* Warna latar saat link disorot */
+  background-color: #0065e9; /* Warna latar saat link disorot */
 }

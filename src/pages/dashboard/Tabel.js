@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./tabelStyle.css";
+import Navbar from "../../components/Navbar";
 
 const Tabel = () => {
   const [data, setdata] = useState([]);
@@ -21,6 +22,7 @@ const Tabel = () => {
 
   return (
     <div>
+      <Navbar/>
       <Link to={"/login/dashboard"}>Tambah Data</Link>
       <div className="table-container">
         <div className="table-card">

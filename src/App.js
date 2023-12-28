@@ -1,5 +1,6 @@
 // Mengimpor gaya CSS dari './App.css'
 import './App.css';
+import './pages/home/style.css'
 // Mengimpor komponen Routes, Browser Router, dan Route dari 'react-router-dom'
 import { Routes, BrowserRouter, Route } from 'react-router-dom';
 // Mengimpor komponen Input dari './pages/dashboard/Input'
